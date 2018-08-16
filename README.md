@@ -53,11 +53,11 @@ Training:
          
   OR
          
-  run train.ipynb from jupyter notebook after modifying dataset location
+  run `train.ipynb` from jupyter notebook after modifying dataset location
 
 Detection:
 
-run detect.ipynb from jupyter notebook after modifying test video/image location
+run `detect.ipynb` from jupyter notebook after modifying test video/image location
 
 ## Authors:
 * **Dweep Trivedi** - Please give me your feedback: dweeptrivedi1994@gmail.com
