@@ -7,8 +7,8 @@ from math import sqrt
 
 class PegasosSVM:
 
-    def __init__(self):
-        self.w_learned = None
+    def __init__(self, weights=None):
+        self.w_learned = weights
         
 
     def __objective_function(self, X, y, w, lamb):
@@ -35,7 +35,12 @@ class PegasosSVM:
         ytrain = np.array(ytrain)
         N = Xtrain.shape[0]
         D = Xtrain.shape[1]
-        w = np.random.rand(D)*(1/(sqrt(lamb)*D))
+        
+        if self.w_learned == None:
+            w = np.random.rand(D)*(1/(sqrt(lamb)*D))
+        else:
+            w = self.w_learned
+        
         assert(LA.norm(w)<=1/sqrt(lamb))    # choose w such that ||W||<=1/sqrt(lamb)
 
         np.random.seed(0)
