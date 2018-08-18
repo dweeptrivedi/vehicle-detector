@@ -1,4 +1,4 @@
-# vehicle-detector
+# Vehicle-detector
 This code implements SVM classifier and sliding window technique to detect vehicles in a video. The classifier was trained using HOG features and [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html), [KITTI vision benchmark suite](http://www.cvlibs.net/datasets/kitti/) datasets.
 
 
