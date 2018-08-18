@@ -19,7 +19,7 @@ You need to install:
 - [Python3](https://www.python.org/downloads/)
 
 - [Jupyter Notebook](http://jupyter.org/install/)
-    1. `python3 -mpip install -U pip`  
+    1. `python3 -m pip install -U pip`  
     2.  `python3 -m pip install jupyter`
 
 - [scikit-learn](http://scikit-learn.org/stable/install.html) for preprocessing
@@ -29,9 +29,9 @@ You need to install:
     1.  `python3 -m pip install -U scikit-image`
 
 - **plot** the results by [installing Matplotlib](https://matplotlib.org/users/installing.html) - Linux, macOS and Windows:
-    1.  `python3 -mpip install -U matplotlib`
+    1.  `python3 -m pip install -U matplotlib`
 -  show **video** by installing [moviepy](https://zulko.github.io/moviepy/install.html):
-    1. `python3 -mpip install -U moviepy`
+    1. `python3 -m pip install -U moviepy`
 
 ## Quick-start
 To start using the vehicle-detector you need to clone the repo:
