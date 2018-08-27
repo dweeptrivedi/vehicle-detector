@@ -4,14 +4,10 @@ This code implements SVM classifier and sliding window technique to detect vehic
 
 ## Table of contents
 
-- [Explanation](#explanation)
 - [Prerequisites](#prerequisites)
 - [Quick start](#quick-start)
 - [Running the code](#running-the-code)
 - [Authors](#authors)
-
-## Explanation
-
 
 ## Prerequisites
 
